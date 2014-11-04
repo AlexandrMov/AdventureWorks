@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([ScrapReasonID]) REFERENCES [Production].[ScrapReason] ([ScrapReasonID])

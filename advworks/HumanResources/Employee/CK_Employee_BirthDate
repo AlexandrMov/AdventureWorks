@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([BirthDate]>='1930-01-01' AND [BirthDate]<=dateadd(year,(-18),getdate())))

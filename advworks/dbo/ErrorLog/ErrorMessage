@@ -1,0 +1,1 @@
+COLUMN nvarchar(4000) NOT NULL

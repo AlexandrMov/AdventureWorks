@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([RejectedQty]>=(0.00)))

@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([SalesPersonID]) REFERENCES [Sales].[SalesPerson] ([BusinessEntityID])

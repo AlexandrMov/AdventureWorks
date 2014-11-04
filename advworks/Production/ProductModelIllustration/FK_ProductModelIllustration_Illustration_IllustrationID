@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([IllustrationID]) REFERENCES [Production].[Illustration] ([IllustrationID])

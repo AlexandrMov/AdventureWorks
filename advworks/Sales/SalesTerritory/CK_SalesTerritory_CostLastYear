@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([CostLastYear]>=(0.00)))

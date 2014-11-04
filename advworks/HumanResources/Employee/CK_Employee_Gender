@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK ((upper([Gender])='F' OR upper([Gender])='M'))

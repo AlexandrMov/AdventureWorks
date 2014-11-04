@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([ProductID]) REFERENCES [Production].[Product] ([ProductID])

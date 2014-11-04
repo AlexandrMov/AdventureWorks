@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([HireDate]>='1996-07-01' AND [HireDate]<=dateadd(day,(1),getdate())))

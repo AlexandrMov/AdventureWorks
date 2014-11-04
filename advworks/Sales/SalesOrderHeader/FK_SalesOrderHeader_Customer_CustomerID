@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([CustomerID]) REFERENCES [Sales].[Customer] ([CustomerID])

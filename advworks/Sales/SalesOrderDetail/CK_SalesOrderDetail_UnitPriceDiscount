@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([UnitPriceDiscount]>=(0.00)))

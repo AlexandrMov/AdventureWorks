@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([Bin]>=(0) AND [Bin]<=(100)))

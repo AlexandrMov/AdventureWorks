@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([StandardPrice]>(0.00)))

@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([SalesLastYear]>=(0.00)))

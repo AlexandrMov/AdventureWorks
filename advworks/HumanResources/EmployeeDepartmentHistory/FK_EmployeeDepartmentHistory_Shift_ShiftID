@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([ShiftID]) REFERENCES [HumanResources].[Shift] ([ShiftID])

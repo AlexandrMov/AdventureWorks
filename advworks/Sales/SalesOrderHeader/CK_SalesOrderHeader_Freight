@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([Freight]>=(0.00)))

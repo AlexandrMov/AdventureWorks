@@ -1,0 +1,1 @@
+COLUMN smallint IDENTITY (1, 1) NOT NULL

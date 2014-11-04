@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([Rate]>=(6.50) AND [Rate]<=(200.00)))

@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([Shelf] like '[A-Za-z]' OR [Shelf]='N/A'))

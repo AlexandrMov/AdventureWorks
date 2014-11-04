@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([SickLeaveHours]>=(0) AND [SickLeaveHours]<=(120)))

@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([PayFrequency]=(2) OR [PayFrequency]=(1)))

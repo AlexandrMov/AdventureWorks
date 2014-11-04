@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([ShipToAddressID]) REFERENCES [Person].[Address] ([AddressID])

@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([ShipBase]>(0.00)))

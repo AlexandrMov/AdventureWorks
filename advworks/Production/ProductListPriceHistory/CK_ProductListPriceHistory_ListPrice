@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT CHECK (([ListPrice]>(0.00)))

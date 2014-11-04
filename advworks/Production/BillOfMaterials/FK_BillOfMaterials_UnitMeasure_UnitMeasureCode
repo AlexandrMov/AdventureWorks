@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([UnitMeasureCode]) REFERENCES [Production].[UnitMeasure] ([UnitMeasureCode])

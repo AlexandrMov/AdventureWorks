@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([ShipMethodID]) REFERENCES [Purchasing].[ShipMethod] ([ShipMethodID])

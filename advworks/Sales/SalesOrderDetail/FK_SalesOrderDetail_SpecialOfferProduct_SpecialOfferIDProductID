@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([SpecialOfferID], [ProductID]) REFERENCES [Sales].[SpecialOfferProduct] ([SpecialOfferID], [ProductID])

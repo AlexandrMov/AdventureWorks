@@ -1,0 +1,1 @@
+WITH CHECK CONSTRAINT FOREIGN KEY ([PersonID]) REFERENCES [Person].[Person] ([BusinessEntityID])
