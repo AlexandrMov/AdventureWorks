@@ -7,11 +7,8 @@ AS
 -- Returns the dealer price for the product on a specific date.
 BEGIN
     DECLARE @DealerPrice money;
-    DECLARE @DealerDiscount money;
 
-    SET @DealerDiscount = 0.60  -- 60% of list price
-
-    SELECT @DealerPrice = plph.[ListPrice] * @DealerDiscount 
+    SELECT @DealerPrice = plph.[ListPrice] * plph.DealerDiscount 
     FROM [Production].[Product] p 
         INNER JOIN [Production].[ProductListPriceHistory] plph 
         ON p.[ProductID] = plph.[ProductID] 
